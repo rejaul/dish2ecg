@@ -188,8 +188,8 @@ def row_signal(fig, bg, d):
     t90 = t[i90[i90 > 400][0]] if len(i90[i90 > 400]) else 265
     bracket(ax, 4, t90, 42, "APD$_{90}$", SIL)
     ax.text(300, thr + 3, "90 % repolarised", fontsize=4.9, color=GREY, ha="left", va="bottom")
-    cap(bg, x0, x1, y - h / 2 + 2.3, "simulated ventricular action potential\n"
-        "28 drugs × 7 currents · O'Hara–Rudy / ORd-CiPA")
+    cap(bg, x0, x1, y - h / 2 + 2.3, "simulated ventricular action potential, O'Hara–Rudy\n"
+        "APD$_{90}$: 12 drugs, 408 runs · qNet (ORd-CiPA): 28 drugs, 2,240 runs")
 
     # guardrail, drawn where it fires
     gx0, gx1 = COLS["dish"]
@@ -398,8 +398,8 @@ def row_tail(fig, bg, d):
             "Sign agreement:  dish 3 of 4,  in silico 4 of 4.\n"
             "On the three it gets right, the dish over-reads 1.8–3.5×.\n\n"
             "ICH E14 decision, upper 90 % bound above 10 ms:\n"
-            "dofetilide 77.7, quinidine 80.5, ranolazine 14.8 — yes.\n"
-            "Verapamil 7.0 — no. The dish has no matching rule.",
+            "dofetilide 77.7, quinidine 80.5, ranolazine 14.8: all yes.\n"
+            "Verapamil 7.0: no. The dish has no matching rule.",
             ha="left", va="top", fontsize=6.0, color="#333333", linespacing=1.6)
 
 

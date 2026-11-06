@@ -90,6 +90,25 @@ Fraction unbound for bepridil, chlorpromazine, cisapride and terfenadine
 - **Citation fix in `CITATION.cff`:** the Scientific Reports 2019 J-to-Tpeak rate-correction paper
   (doi:10.1038/s41598-019-51491-4) was attributed to Vicente; the first author is Hnatkova. Corrected.
 - `CITATION.cff` version bumped from 0.1.0 to 0.2.2 and the release date to 2026-11-06.
+- `docs/PROJECT_REPORT.md` rewritten in plain prose with the same 19 sections, and Figures 7 (Bland-Altman) and 8
+  (confidence bands) added. Every number was compared against the previous version; each one added or dropped is
+  accounted for (figure-8 values, Park 2018's reported sensitivities, the 142 test count, journal page numbers).
+- **Errors found while rewriting, and fixed:**
+  - The 408 ORd simulations were described as "the four bridge drugs and 34 concentrations". They cover the 12
+    CiPA training drugs, three cell types and 11 or 12 concentrations each; four of the 12 are bridge drugs. The
+    Figure 2 caption, which merged the 12-drug APD90 set and the 28-drug qNet set, now names both.
+  - Bayesian post-test probabilities (20 % pre-test, 53 % / 9 % / 4 % after hERG results) were quoted in the report
+    and in a chat summary and credited to Gintant 2022. They are not in Gintant 2022 (a single-author review of
+    diagnostic-performance principles; abstract only), nor in Strauss 2021 or Park 2018, both read in full.
+    Strauss 2021 attributes the 20 % pre-test figure to Vargas et al. and says it disagrees with their exact
+    probabilities. The figures are removed; what was verified replaces them.
+  - Park 2018 (first author Park, with Gintant as a co-author) is the source of the sensitivity and specificity
+    figures. Its action potential assay is the conventional non-clinical one, not hiPSC-CM.
+  - Of the 136 drug-by-concentration conditions, the M cell is the longest APD90 in 121. All 15 exceptions are
+    conditions where the M cell itself failed to repolarise, so it is the longest in every condition where it
+    repolarises normally.
+  - The reference list no longer carries Vicente 2018 (cited nowhere in the text). Garnett 2018 is added, and four
+    sources seen only as abstracts or search excerpts are marked as such.
 - **Doc fix:** the bootstrap intervals in the held-out risk table (`docs/SUMMARY.md`, `docs/RISK_CLASSIFICATION_28.md`)
   were stale (for example qNet Spearman interval [0.55, 0.95]). `scripts/risk_comparison.py` was re-run from the wells
   table and reproduces `results/risk28_metrics_ci.csv` exactly; the docs now quote that file (qNet [0.52, 0.95]).
