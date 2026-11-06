@@ -1,0 +1,17 @@
+study,arm,endpoint,gmean_cmax,intercept_only,intercept_only_lo,intercept_only_hi,intercept_only_boundary,random_slope,random_slope_lo,random_slope_hi,random_slope_boundary,published,gap_intercept_only,gap_random_slope
+ecgrdvq,Dofetilide,QTcF,2.71,73.1,68.5,77.7,False,73.8,67.3,80.3,False,73.6,-0.5,0.2
+ecgrdvq,Dofetilide,JTpeakc,2.71,38.7,32.8,44.6,True,38.7,32.7,44.8,False,39.1,-0.4,-0.4
+ecgrdvq,Quinidine Sulph,QTcF,1754.049,74.9,69.3,80.5,False,77.9,69.3,86.6,False,78.9,-4.0,-1.0
+ecgrdvq,Quinidine Sulph,JTpeakc,1754.049,27.7,22.3,33.2,False,26.9,17.8,36.0,False,26.1,1.6,0.8
+ecgrdvq,Ranolazine,QTcF,2043.207,11.2,7.6,14.8,False,11.2,7.5,14.9,False,12.0,-0.8,-0.8
+ecgrdvq,Ranolazine,JTpeakc,2043.207,2.8,-0.2,5.8,False,1.7,-1.5,4.9,False,,,
+ecgrdvq,Verapamil HCL,QTcF,113.591,3.5,-0.1,7.0,False,4.0,0.7,7.2,False,,,
+ecgrdvq,Verapamil HCL,JTpeakc,113.591,0.6,-2.4,3.5,False,1.1,-2.3,4.4,False,,,
+ecgdmmld,Dofetilide,QTcF,1.534,37.5,33.4,41.7,False,33.4,27.4,39.4,False,45.2,-7.7,-11.8
+ecgdmmld,Dofetilide,JTpeakc,1.534,20.7,16.7,24.7,False,19.5,13.8,25.2,False,29.1,-8.4,-9.6
+ecgdmmld,Lidocaine + Dofetilide,QTcF,1.717,21.1,17.3,25.0,False,20.6,16.5,24.8,False,,,
+ecgdmmld,Lidocaine + Dofetilide,JTpeakc,1.717,7.7,4.3,11.1,False,6.9,2.9,11.0,False,,,
+ecgdmmld,Mexiletine + Dofetilide,QTcF,1.891,20.8,16.6,25.0,False,19.6,14.2,25.0,False,17.3,3.5,2.3
+ecgdmmld,Mexiletine + Dofetilide,JTpeakc,1.891,2.6,-1.5,6.7,False,1.6,-3.4,6.7,False,1.1,1.5,0.5
+ecgdmmld,Moxifloxacin + Diltiazem,QTcF,9444.709,29.0,24.6,33.3,True,29.8,25.2,34.5,False,,,
+ecgdmmld,Moxifloxacin + Diltiazem,JTpeakc,9444.709,16.5,13.2,19.8,False,17.3,13.2,21.5,False,,,

@@ -1,0 +1,113 @@
+drug,conc_index,conc_molar,conc_um,conc_um_printed,conc_value_source,folds_cmax,cmax_molar,cmax_um_printed,cmax_molar_refined,cmax_value_source,conc_interval,source_pdf,source_page
+Diltiazem,1,1e-08,0.01,0.01,printed,0.08,1.3e-07,0.13,1.28e-07,printed_table,log,Data S1,1
+Diltiazem,2,1e-07,0.1,0.1,printed,0.8,1.3e-07,0.13,1.28e-07,printed_table,log,Data S1,1
+Diltiazem,3,1e-06,1.0,1.0,printed,8.0,1.3e-07,0.13,1.28e-07,printed_table,log,Data S1,1
+Diltiazem,4,9.999999999999999e-06,10.0,10.0,printed,78.0,1.3e-07,0.13,1.28e-07,printed_table,log,Data S1,1
+Loratadine,1,1e-09,0.001,0.001,printed,2.22,4.4999999999999995e-10,0.00045,4.4799999999999995e-10,printed_table,1/2 log,Data S1,2
+Loratadine,2,3e-09,0.003,0.003,printed,6.7,4.4999999999999995e-10,0.00045,4.4799999999999995e-10,printed_table,1/2 log,Data S1,2
+Loratadine,3,1e-08,0.01,0.01,printed,20.0,4.4999999999999995e-10,0.00045,4.4799999999999995e-10,printed_table,1/2 log,Data S1,2
+Loratadine,4,3e-08,0.03,0.03,printed,67.0,4.4999999999999995e-10,0.00045,4.4799999999999995e-10,printed_table,1/2 log,Data S1,2
+Metoprolol,1,3.2e-06,3.2,3.2,printed,1.8,1.8e-06,1.8,1.79e-06,printed_table,1/2 log,Data S1,3
+Metoprolol,2,9.999999999999999e-06,10.0,10.0,printed,5.6,1.8e-06,1.8,1.79e-06,printed_table,1/2 log,Data S1,3
+Metoprolol,3,3.2e-05,32.0,32.0,printed,18.0,1.8e-06,1.8,1.79e-06,printed_table,1/2 log,Data S1,3
+Metoprolol,4,9.999999999999999e-05,100.0,100.0,printed,56.0,1.8e-06,1.8,1.79e-06,printed_table,1/2 log,Data S1,3
+Mexiletine,1,1e-07,0.1,0.1,printed,0.04,2.4999999999999998e-06,2.5,2.4999999999999998e-06,printed_table,log,Data S1,4
+Mexiletine,2,1e-06,1.0,1.0,printed,0.4,2.4999999999999998e-06,2.5,2.4999999999999998e-06,printed_table,log,Data S1,4
+Mexiletine,3,9.999999999999999e-06,10.0,10.0,printed,4.0,2.4999999999999998e-06,2.5,2.4999999999999998e-06,printed_table,log,Data S1,4
+Mexiletine,4,9.999999999999999e-05,100.0,100.0,printed,40.0,2.4999999999999998e-06,2.5,2.4999999999999998e-06,printed_table,log,Data S1,4
+Nifedipine,1,1e-09,0.001,0.001,printed,0.13,8e-09,0.008,7.69e-09,printed_table,log,Data S1,5
+Nifedipine,2,1e-08,0.01,0.01,printed,1.3,8e-09,0.008,7.69e-09,printed_table,log,Data S1,5
+Nifedipine,3,1e-07,0.1,0.1,printed,13.0,8e-09,0.008,7.69e-09,printed_table,log,Data S1,5
+Nifedipine,4,1e-06,1.0,1.0,printed,130.0,8e-09,0.008,7.69e-09,printed_table,log,Data S1,5
+Nitrendipine,1,1e-08,0.01,0.01,printed,3.33,3.16e-09,0.0,3.16e-09,derived_conc_over_folds,1/2 log,Data S1,6
+Nitrendipine,2,3.16e-08,0.0316,0.0,reconstructed_log_ladder,10.0,3.16e-09,0.0,3.16e-09,derived_conc_over_folds,1/2 log,Data S1,6
+Nitrendipine,3,1e-07,0.1,0.0,reconstructed_log_ladder,32.0,3.16e-09,0.0,3.16e-09,derived_conc_over_folds,1/2 log,Data S1,6
+Nitrendipine,4,3.1599999999999997e-07,0.316,0.0,reconstructed_log_ladder,100.0,3.16e-09,0.0,3.16e-09,derived_conc_over_folds,1/2 log,Data S1,6
+Ranolazine,1,1e-07,0.1,0.1,printed,0.05,1.8999999999999998e-06,1.9,1.96e-06,printed_table,log,Data S1,7
+Ranolazine,2,1e-06,1.0,1.0,printed,0.5,1.8999999999999998e-06,1.9,1.96e-06,printed_table,log,Data S1,7
+Ranolazine,3,9.999999999999999e-06,10.0,10.0,printed,5.0,1.8999999999999998e-06,1.9,1.96e-06,printed_table,log,Data S1,7
+Ranolazine,4,9.999999999999999e-05,100.0,100.0,printed,51.0,1.8999999999999998e-06,1.9,1.96e-06,printed_table,log,Data S1,7
+Tamoxifen,1,1e-07,0.1,0.1,printed,4.5,2.1e-08,0.0,2.1e-08,derived_conc_over_folds,1/2 log,Data S1,8
+Tamoxifen,2,3e-07,0.3,0.3,printed,14.3,2.1e-08,0.0,2.1e-08,derived_conc_over_folds,1/2 log,Data S1,8
+Tamoxifen,3,9e-07,0.9,0.9,printed,45.2,2.1e-08,0.0,2.1e-08,derived_conc_over_folds,1/2 log,Data S1,8
+Tamoxifen,4,3e-06,3.0,3.0,printed,143.0,2.1e-08,0.0,2.1e-08,derived_conc_over_folds,1/2 log,Data S1,8
+Verapamil,1,1e-09,0.001,0.0,reconstructed_log_ladder,0.02,5e-08,0.05,4.55e-08,printed_table,log,Data S1,9
+Verapamil,2,1e-08,0.01,0.0,reconstructed_log_ladder,0.2,5e-08,0.05,4.55e-08,printed_table,log,Data S1,9
+Verapamil,3,1e-07,0.1,0.0,reconstructed_log_ladder,2.0,5e-08,0.05,4.55e-08,printed_table,log,Data S1,9
+Verapamil,4,1e-06,1.0,1.0,printed,22.0,5e-08,0.05,4.55e-08,printed_table,log,Data S1,9
+Astemizole,1,1e-10,0.0001,0.0001,printed,0.33,2.9999999999999995e-10,0.0003,2.9999999999999995e-10,printed_table,log,Data S2,1
+Astemizole,2,1e-09,0.001,0.001,printed,3.3,2.9999999999999995e-10,0.0003,2.9999999999999995e-10,printed_table,log,Data S2,1
+Astemizole,3,1e-08,0.01,0.01,printed,33.0,2.9999999999999995e-10,0.0003,2.9999999999999995e-10,printed_table,log,Data S2,1
+Astemizole,4,1e-07,0.1,0.1,printed,333.0,2.9999999999999995e-10,0.0003,2.9999999999999995e-10,printed_table,log,Data S2,1
+Chlorpromazine,1,9.499999999999999e-08,0.095,0.095,printed,2.75,3.4500000000000005e-08,0.0345,3.4500000000000005e-08,printed_table,1/2 log,Data S2,2
+Chlorpromazine,2,3e-07,0.3,0.3,printed,8.7,3.4500000000000005e-08,0.0345,3.4500000000000005e-08,printed_table,1/2 log,Data S2,2
+Chlorpromazine,3,9.499999999999999e-07,0.95,0.95,printed,28.0,3.4500000000000005e-08,0.0345,3.4500000000000005e-08,printed_table,1/2 log,Data S2,2
+Chlorpromazine,4,3e-06,3.0,3.0,printed,87.0,3.4500000000000005e-08,0.0345,3.4500000000000005e-08,printed_table,1/2 log,Data S2,2
+Cisapride,1,3e-09,0.003,0.003,printed,1.2,2.5999999999999997e-09,0.0026,2.5600000000000003e-09,printed_table,1/2 log,Data S2,3
+Cisapride,2,1e-08,0.01,0.01,printed,3.9,2.5999999999999997e-09,0.0026,2.5600000000000003e-09,printed_table,1/2 log,Data S2,3
+Cisapride,3,3e-08,0.03,0.03,printed,12.0,2.5999999999999997e-09,0.0026,2.5600000000000003e-09,printed_table,1/2 log,Data S2,3
+Cisapride,4,1e-07,0.1,0.1,printed,39.0,2.5999999999999997e-09,0.0026,2.5600000000000003e-09,printed_table,1/2 log,Data S2,3
+Clarithromycin,1,1e-07,0.1,0.1,printed,0.1,1.2e-06,1.2,1.2e-06,printed_table,log,Data S2,4
+Clarithromycin,2,1e-06,1.0,1.0,printed,0.8,1.2e-06,1.2,1.2e-06,printed_table,log,Data S2,4
+Clarithromycin,3,9.999999999999999e-06,10.0,10.0,printed,8.0,1.2e-06,1.2,1.2e-06,printed_table,log,Data S2,4
+Clarithromycin,4,9.999999999999999e-05,100.0,100.0,printed,83.0,1.2e-06,1.2,1.2e-06,printed_table,log,Data S2,4
+Clozapine,1,1e-07,0.1,0.1,printed,1.3,7e-08,0.07,7.14e-08,printed_table,1/2 log,Data S2,5
+Clozapine,2,3e-07,0.3,0.3,printed,4.2,7e-08,0.07,7.14e-08,printed_table,1/2 log,Data S2,5
+Clozapine,3,9e-07,0.9,0.9,printed,13.0,7e-08,0.07,7.14e-08,printed_table,1/2 log,Data S2,5
+Clozapine,4,3e-06,3.0,3.0,printed,42.0,7e-08,0.07,7.14e-08,printed_table,1/2 log,Data S2,5
+Domperidone,1,3e-09,0.003,0.003,printed,0.15,2e-08,0.02,2e-08,printed_table,log,Data S2,6
+Domperidone,2,3e-08,0.03,0.03,printed,1.5,2e-08,0.02,2e-08,printed_table,log,Data S2,6
+Domperidone,3,3e-07,0.3,0.3,printed,15.0,2e-08,0.02,2e-08,printed_table,log,Data S2,6
+Domperidone,4,3e-06,3.0,3.0,printed,150.0,2e-08,0.02,2e-08,printed_table,log,Data S2,6
+Droperidol,1,3.2e-08,0.032,0.032,printed,2.0,2e-08,0.02,1.59e-08,printed_table,1/2 log,Data S2,7
+Droperidol,2,1e-07,0.1,0.1,printed,6.3,2e-08,0.02,1.59e-08,printed_table,1/2 log,Data S2,7
+Droperidol,3,3e-07,0.3,0.3,printed,20.0,2e-08,0.02,1.59e-08,printed_table,1/2 log,Data S2,7
+Droperidol,4,1e-06,1.0,1.0,printed,63.0,2e-08,0.02,1.59e-08,printed_table,1/2 log,Data S2,7
+Ondansetron,1,3e-08,0.03,0.03,printed,0.08,3.7e-07,0.37,3.7e-07,printed_table,log,Data S2,8
+Ondansetron,2,3e-07,0.3,0.3,printed,0.8,3.7e-07,0.37,3.7e-07,printed_table,log,Data S2,8
+Ondansetron,3,3e-06,3.0,3.0,printed,8.0,3.7e-07,0.37,3.7e-07,printed_table,log,Data S2,8
+Ondansetron,4,2.9999999999999997e-05,30.0,30.0,printed,81.0,3.7e-07,0.37,3.7e-07,printed_table,log,Data S2,8
+Pimozide,1,1e-09,0.001,0.001,printed,2.33,4e-10,0.0004,4.29e-10,printed_table,1/2 log,Data S2,9
+Pimozide,2,3e-09,0.003,0.003,printed,7.0,4e-10,0.0004,4.29e-10,printed_table,1/2 log,Data S2,9
+Pimozide,3,1e-08,0.01,0.01,printed,21.0,4e-10,0.0004,4.29e-10,printed_table,1/2 log,Data S2,9
+Pimozide,4,3e-08,0.03,0.03,printed,70.0,4e-10,0.0004,4.29e-10,printed_table,1/2 log,Data S2,9
+Risperidone,1,3e-09,0.003,0.003,printed,1.78,1.7999999999999998e-09,0.0018,1.7899999999999998e-09,printed_table,1/2 log,Data S2,10
+Risperidone,2,1e-08,0.01,0.01,printed,5.6,1.7999999999999998e-09,0.0018,1.7899999999999998e-09,printed_table,1/2 log,Data S2,10
+Risperidone,3,3e-08,0.03,0.03,printed,18.0,1.7999999999999998e-09,0.0018,1.7899999999999998e-09,printed_table,1/2 log,Data S2,10
+Risperidone,4,1e-07,0.1,0.1,printed,56.0,1.7999999999999998e-09,0.0018,1.7899999999999998e-09,printed_table,1/2 log,Data S2,10
+Terfenadine,1,1e-09,0.001,0.001,printed,3.5,2.9999999999999995e-10,0.0003,2.86e-10,printed_table,log,Data S2,11
+Terfenadine,2,1e-08,0.01,0.01,printed,35.0,2.9999999999999995e-10,0.0003,2.86e-10,printed_table,log,Data S2,11
+Terfenadine,3,1e-07,0.1,0.1,printed,350.0,2.9999999999999995e-10,0.0003,2.86e-10,printed_table,log,Data S2,11
+Terfenadine,4,1e-06,1.0,1.0,printed,3500.0,2.9999999999999995e-10,0.0003,2.86e-10,printed_table,log,Data S2,11
+Azimilide,1,1e-08,0.01,0.01,printed,0.14,7e-08,0.07,6.99e-08,printed_table,log,Data S3,1
+Azimilide,2,1e-07,0.1,0.1,printed,1.4,7e-08,0.07,6.99e-08,printed_table,log,Data S3,1
+Azimilide,3,1e-06,1.0,1.0,printed,14.0,7e-08,0.07,6.99e-08,printed_table,log,Data S3,1
+Azimilide,4,9.999999999999999e-06,10.0,10.0,printed,143.0,7e-08,0.07,6.99e-08,printed_table,log,Data S3,1
+Bepridil,1,1e-08,0.01,0.01,printed,0.31,3e-08,0.03,3.1899999999999994e-08,printed_table,log,Data S3,2
+Bepridil,2,1e-07,0.1,0.1,printed,3.1,3e-08,0.03,3.1899999999999994e-08,printed_table,log,Data S3,2
+Bepridil,3,1e-06,1.0,1.0,printed,31.0,3e-08,0.03,3.1899999999999994e-08,printed_table,log,Data S3,2
+Bepridil,4,9.999999999999999e-06,10.0,10.0,printed,313.0,3e-08,0.03,3.1899999999999994e-08,printed_table,log,Data S3,2
+"D,l Sotalol",1,1e-07,0.1,0.1,printed,0.01,1.4999999999999999e-05,15.0,1.43e-05,printed_table,log,Data S3,3
+"D,l Sotalol",2,1e-06,1.0,1.0,printed,0.1,1.4999999999999999e-05,15.0,1.43e-05,printed_table,log,Data S3,3
+"D,l Sotalol",3,9.999999999999999e-06,10.0,10.0,printed,1.0,1.4999999999999999e-05,15.0,1.43e-05,printed_table,log,Data S3,3
+"D,l Sotalol",4,9.999999999999999e-05,100.0,100.0,printed,7.0,1.4999999999999999e-05,15.0,1.43e-05,printed_table,log,Data S3,3
+Disopyramide,1,1e-07,0.1,0.1,printed,0.14,1e-06,1.0,6.989999999999999e-07,printed_table,log,Data S3,4
+Disopyramide,2,1e-06,1.0,1.0,printed,1.4,1e-06,1.0,6.989999999999999e-07,printed_table,log,Data S3,4
+Disopyramide,3,9.999999999999999e-06,10.0,10.0,printed,14.0,1e-06,1.0,6.989999999999999e-07,printed_table,log,Data S3,4
+Disopyramide,4,9.999999999999999e-05,100.0,100.0,printed,143.0,1e-06,1.0,6.989999999999999e-07,printed_table,log,Data S3,4
+Dofetilide,1,2.9999999999999995e-10,0.0003,0.0003,printed,0.15,2e-09,0.002,2e-09,printed_table,1/2 log,Data S3,5
+Dofetilide,2,1e-09,0.001,0.001,printed,0.5,2e-09,0.002,2e-09,printed_table,1/2 log,Data S3,5
+Dofetilide,3,3e-09,0.003,0.003,printed,1.5,2e-09,0.002,2e-09,printed_table,1/2 log,Data S3,5
+Dofetilide,4,1e-08,0.01,0.01,printed,5.0,2e-09,0.002,2e-09,printed_table,1/2 log,Data S3,5
+Ibutilide,1,1e-10,0.0001,0.0001,printed,0.001,1e-07,0.1,1e-07,printed_table,log,Data S3,6
+Ibutilide,2,1e-09,0.001,0.001,printed,0.01,1e-07,0.1,1e-07,printed_table,log,Data S3,6
+Ibutilide,3,1e-08,0.01,0.01,printed,0.1,1e-07,0.1,1e-07,printed_table,log,Data S3,6
+Ibutilide,4,1e-07,0.1,0.1,printed,1.0,1e-07,0.1,1e-07,printed_table,log,Data S3,6
+Quinidine,1,9.499999999999999e-07,0.95,0.95,printed,0.32,3e-06,3.0,3e-06,printed_table,1/2 log,Data S3,7
+Quinidine,2,3e-06,3.0,3.0,printed,1.0,3e-06,3.0,3e-06,printed_table,1/2 log,Data S3,7
+Quinidine,3,9.499999999999999e-06,9.5,9.5,printed,3.2,3e-06,3.0,3e-06,printed_table,1/2 log,Data S3,7
+Quinidine,4,2.9999999999999997e-05,30.0,30.0,printed,10.0,3e-06,3.0,3e-06,printed_table,1/2 log,Data S3,7
+Vandetanib,1,1e-08,0.01,0.01,printed,0.03,3e-07,0.3,3.03e-07,printed_table,log,Data S3,8
+Vandetanib,2,1e-07,0.1,0.1,printed,0.3,3e-07,0.3,3.03e-07,printed_table,log,Data S3,8
+Vandetanib,3,1e-06,1.0,1.0,printed,3.3,3e-07,0.3,3.03e-07,printed_table,log,Data S3,8
+Vandetanib,4,9.999999999999999e-06,10.0,10.0,printed,33.0,3e-07,0.3,3.03e-07,printed_table,log,Data S3,8

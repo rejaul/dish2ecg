@@ -1,0 +1,5 @@
+drug,risk,match_point_folds_free_cmax,clin_conc_range,dish_conc_range,point_inside_dish_range,clin_ddQTcF_ms,clin_ci,dish_ddFPDc_ms,dish_ci,dish_minus_clin,same_sign,dish_wells,dish_datasets,clin_subjects
+Dofetilide,high,1.074,0.017-1.296,0.15-5,True,73.1,"[68.5, 77.7]",132.0,"[93.1, 170.8]",58.8,True,201,15,22
+Quinidine,high,0.288,0.014-0.419,0.32-10,False,74.9,"[69.3, 80.5]",135.1,"[82.2, 187.9]",60.2,True,128,14,21
+Ranolazine,low,0.956,0.007-3.036,0.05-51,True,11.2,"[7.6, 14.8]",38.8,"[22.8, 54.7]",27.6,True,244,15,22
+Verapamil,low,0.5,0.007-1.619,0.02-22,True,3.5,"[-0.1, 7.0]",-86.3,"[-98.9, -73.6]",-89.7,False,278,15,22

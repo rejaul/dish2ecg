@@ -1,0 +1,78 @@
+cff-version: 1.2.0
+title: "dish2ecg: corrected repolarization endpoints from hiPSC-CM and clinical ECG data"
+message: "If you use this software, please cite it and the underlying datasets."
+type: software
+version: 0.1.0
+date-released: "2026-11-02"
+license: MIT
+abstract: >-
+  dish2ecg applies one correction cascade - rate correction, baseline
+  subtraction, vehicle or placebo subtraction, and a mixed-effects
+  concentration-response model - symmetrically to human induced pluripotent stem
+  cell derived cardiomyocyte field-potential recordings and to clinical 12-lead
+  ECG data, so that an in-vitro concentration-response and a clinical
+  concentration-QTc relationship can be compared on a shared free-Cmax scale.
+  Every derived value carries the provenance of the corrections that produced it,
+  and in-vitro endpoints are structurally prevented from being reported as QT
+  intervals.
+keywords:
+  - cardiac safety
+  - QT interval
+  - hiPSC-CM
+  - CiPA
+  - proarrhythmia
+  - field potential duration
+  - concentration-QTc
+references:
+  - type: article
+    title: "International Multisite Study of Human-Induced Pluripotent Stem Cell-Derived Cardiomyocytes for Drug Proarrhythmic Potential Assessment"
+    authors:
+      - family-names: Blinova
+        given-names: Ksenia
+    journal: "Cell Reports"
+    year: 2018
+    volume: "24"
+    start: 3582
+    doi: 10.1016/j.celrep.2018.08.079
+  - type: article
+    title: "Differentiating drug-induced multichannel block on the electrocardiogram: randomized study of dofetilide, quinidine, ranolazine, and verapamil"
+    authors:
+      - family-names: Johannesen
+        given-names: Lars
+    journal: "Clinical Pharmacology and Therapeutics"
+    year: 2014
+    volume: "96"
+    start: 549
+    doi: 10.1038/clpt.2014.155
+  - type: article
+    title: "Late sodium current block for drug-induced long QT syndrome: Results from a prospective clinical trial"
+    authors:
+      - family-names: Johannesen
+        given-names: Lars
+    journal: "Clinical Pharmacology and Therapeutics"
+    year: 2015
+    volume: "99"
+    start: 214
+    doi: 10.1002/cpt.205
+  - type: article
+    title: "Electrocardiographic Biomarkers for Detection of Drug-Induced Late Sodium Current Block"
+    authors:
+      - family-names: Vicente
+        given-names: Jose
+    journal: "PLoS ONE"
+    year: 2016
+    volume: "11"
+    start: e0163619
+    doi: 10.1371/journal.pone.0163619
+  - type: article
+    title: "Heart Rate Correction of the J-to-Tpeak Interval"
+    authors:
+      - family-names: Vicente
+        given-names: Jose
+    journal: "Scientific Reports"
+    year: 2019
+    volume: "9"
+    start: "15060"
+    doi: 10.1038/s41598-019-51491-4
+repository-code: "https://github.com/rejaul/dish2ecg"
+url: "https://github.com/rejaul/dish2ecg"

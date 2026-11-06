@@ -1,0 +1,5 @@
+subset,n,predictor,spearman,auc_high,auc_low
+training 12,12,qNet (in-silico),0.9460998335825322,1.0,1.0
+training 12,12,arrhythmia-event fraction (dish),0.6504436355879909,1.0,0.6875
+training 12,12,max ddFPDc (dish),0.680009255387445,0.84375,0.875
+training 12,12,ddFPDc at Cmax (dish),0.680009255387445,0.9375,0.78125

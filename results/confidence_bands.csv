@@ -1,0 +1,4 @@
+arm,endpoint,drug,at,effect,lo,hi,df,interval_meaning
+in vitro,ddFPDc,Dofetilide,1.074x free Cmax,131.96318336370373,93.23159818231632,170.69476854509116,14.0,"90 % CI, t on n_groups-1"
+in vivo,ddQTcF,Dofetilide,2.71 ng/mL (geometric-mean observed Cmax),73.12094820919961,68.53237879780575,77.70951762059347,21.0,"90 % CI, t on n_groups-1"
+in silico,dAPD90,Dofetilide,1.074x free Cmax,50.44746348944858,41.21712145922504,50.44746348944858,,"range over endo/epi/mid, not a CI"

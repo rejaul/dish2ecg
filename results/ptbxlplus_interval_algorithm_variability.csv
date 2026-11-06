@@ -1,0 +1,8 @@
+quantity,value,n
+"QT difference, 12SL - UniG, normal records","-1.87 ms mean, SD 7.22",9476
+QT records differing >10 ms between the two algorithms (all records),21.3 %,21779
+rate dependence of the inter-algorithm difference,-0.0196 ms per ms RR (p=1e-144); -5.87 ms over a 300 ms RR change,9476
+"fitted cross-sectional QT/RR exponent, 12SL",0.3355,9477
+"fitted cross-sectional QT/RR exponent, UniG",0.3734,9476
+"QTc divergence from the two exponents at 90 bpm, QT=400 ms",7.1 ms,9476
+ECGDeli QT vs commercial,"median 108 ms longer; its feature is QTi_max (max across leads), not comparable",21291

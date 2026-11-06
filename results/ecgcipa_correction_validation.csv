@@ -1,0 +1,4 @@
+quantity,n,median_diff_ms,sd_ms,max_abs_ms
+QTcF,1985,-0.0148,0.1149,3.833
+JTpeakc,1985,-0.0152,0.1026,3.018
+JTpeak exponent implied by study,1985,0.5797,,

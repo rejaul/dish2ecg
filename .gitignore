@@ -1,0 +1,6 @@
+__pycache__/
+*.egg-info/
+*.pyc
+.pytest_cache/
+data/cipa_myocyte_wells.csv
+Blinova_etal_2018_data.xlsx

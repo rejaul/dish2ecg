@@ -1,0 +1,5 @@
+drug,risk,clin_ddQTcF_ms,dish_ddFPDc_ms,clin_baseline_ms,dish_baseline_ms,clin_pct_of_baseline,dish_pct_of_baseline,ratio_raw_ms,ratio_percent_scale,clin_rel_to_reference,dish_rel_to_reference,ratio_reference_scale,clin_ci_spans_zero,reference_drug,dish_baseline_source
+Dofetilide,high,73.1,132.0,394.0,482.0,18.554,27.386,1.806,1.476,1.0,1.0,1.0,False,Dofetilide,median control FPDc over 18 Millard 2018 studies (external)
+Quinidine,high,74.9,135.1,396.7,482.0,18.882,28.029,1.804,1.484,1.025,1.023,0.999,False,Dofetilide,median control FPDc over 18 Millard 2018 studies (external)
+Ranolazine,low,11.2,38.8,396.6,482.0,2.824,8.05,3.464,2.851,0.153,0.294,1.918,False,Dofetilide,median control FPDc over 18 Millard 2018 studies (external)
+Verapamil,low,3.5,-86.3,395.6,482.0,0.885,-17.905,-24.657,-20.236,0.048,-0.654,-13.655,True,Dofetilide,median control FPDc over 18 Millard 2018 studies (external)

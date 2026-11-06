@@ -1,0 +1,4 @@
+drug,common_conc_ngml,ecgrdvq_ddQTcF,ecgcipa_ddQTcF,shift_ddQTcF,ecgrdvq_dQTcF_only,ecgcipa_dQTcF_only,shift_dQTcF_only,ecgrdvq_mean_placebo_applied,ecgcipa_mean_placebo_applied,diff_placebo_applied,n_ecgrdvq,n_ecgcipa
+Ranolazine,2043.207,11.2,19.4,8.2,3.4,9.4,6.0,-7.6,-10.1,-2.5,22,10
+Verapamil,113.591,3.5,8.4,5.0,-1.9,-1.3,0.6,-7.6,-10.1,-2.5,22,10
+Dofetilide,1.324,34.1,43.7,9.7,26.2,33.1,7.0,-7.6,-10.1,-2.5,22,10

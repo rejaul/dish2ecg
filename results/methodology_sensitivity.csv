@@ -1,0 +1,45 @@
+arm,drug,question,variant,effect_ms,ci_lo,ci_hi,n,groups,exceeds_10ms
+in vivo,Dofetilide,rate correction,Fridericia (used),73.1209488241145,68.53263031231495,77.70926733591406,328,22,True
+in vivo,Dofetilide,rate correction,Bazett,72.37973659594049,67.29878761186757,77.4606855800134,328,22,True
+in vivo,Dofetilide,rate correction,individual exponent,72.32858205607107,67.36680155652775,77.2903625556144,328,22,True
+in vivo,Dofetilide,random structure,intercept + slope,73.79677897671895,67.28658430200106,80.30697365143685,328,22,True
+in vivo,Dofetilide,placebo adjustment,white-paper model (estimated),69.7533208259055,,,658,22,
+in vivo,Dofetilide,placebo adjustment,pre-formed double delta (used),73.12094820919961,68.53237879780575,77.70951762059347,328,22,True
+in vivo,Quinidine,rate correction,Fridericia (used),74.90842352242963,69.32391553976095,80.49293150509831,315,21,True
+in vivo,Quinidine,rate correction,Bazett,85.39087440075818,78.3743582629442,92.40739053857216,315,21,True
+in vivo,Quinidine,rate correction,individual exponent,78.61131179876821,72.12938253393256,85.09324106360387,315,21,True
+in vivo,Quinidine,random structure,intercept + slope,77.94162025591851,69.31831508027169,86.56492543156533,315,21,True
+in vivo,Quinidine,placebo adjustment,white-paper model (estimated),71.7002004134861,,,645,22,
+in vivo,Quinidine,placebo adjustment,pre-formed double delta (used),74.90842352242963,69.32391553976095,80.49293150509831,315,21,True
+in vivo,Ranolazine,rate correction,Fridericia (used),11.202348215705408,7.569009830689331,14.835686600721484,329,22,True
+in vivo,Ranolazine,rate correction,Bazett,14.406468168581593,9.622083334588726,19.19085300257446,329,22,True
+in vivo,Ranolazine,rate correction,individual exponent,12.396750871793758,7.816495865337556,16.97700587824996,329,22,True
+in vivo,Ranolazine,random structure,intercept + slope,11.213651382504542,7.524863705419425,14.90243905958966,329,22,True
+in vivo,Ranolazine,placebo adjustment,white-paper model (estimated),11.704549662378875,,,659,22,
+in vivo,Ranolazine,placebo adjustment,pre-formed double delta (used),11.202338291435955,7.56882460928985,14.835851973582065,329,22,True
+in vivo,Verapamil,rate correction,Fridericia (used),3.458950042023937,-0.08492976948715869,7.002829853535033,330,22,False
+in vivo,Verapamil,rate correction,Bazett,10.51468209115995,5.993771395536998,15.035592786782901,330,22,True
+in vivo,Verapamil,rate correction,individual exponent,5.754272418445209,1.6649966743886981,9.84354816250172,330,22,False
+in vivo,Verapamil,random structure,intercept + slope,3.9530819059405813,0.6835363363763101,7.2226274755048525,330,22,False
+in vivo,Verapamil,placebo adjustment,white-paper model (estimated),3.5307098270377733,,,660,22,
+in vivo,Verapamil,placebo adjustment,pre-formed double delta (used),3.458950019181524,-0.0849321267879945,7.002832165151042,330,22,False
+in vitro,Dofetilide,informative missingness,all 4 concentrations (used),131.96318336370373,93.23159818231632,170.69476854509116,201,15,
+in vitro,Dofetilide,informative missingness,lowest 3 concentrations,136.61954859004132,97.6384411047463,175.60065607533633,185,15,
+in vitro,Dofetilide,predictor shape,log10 multiples (used),131.96298099107312,93.12960886942733,170.79635311271892,201,15,
+in vitro,Dofetilide,predictor shape,linear in multiples,96.23340544138391,60.89821367459204,131.5685972081758,201,15,
+in vitro,Dofetilide,dataset effect,fixed (mean over datasets),118.27113103701048,,,201,15,
+in vitro,Quinidine,informative missingness,all 4 concentrations (used),135.07930049672171,79.22943049356721,190.92917049987622,128,14,
+in vitro,Quinidine,informative missingness,lowest 3 concentrations,119.37156023313932,68.58145425122768,170.16166621505096,117,13,
+in vitro,Quinidine,predictor shape,log10 multiples (used),121.65742521719882,76.62993525995282,166.68491517444482,128,14,
+in vitro,Quinidine,predictor shape,linear in multiples,126.7951368507453,85.46242092666401,168.12785277482658,128,14,
+in vitro,Quinidine,dataset effect,fixed (mean over datasets),123.5908547996201,,,128,14,
+in vitro,Ranolazine,informative missingness,all 4 concentrations (used),38.791960700646264,22.622596656948904,54.96132474434363,244,15,
+in vitro,Ranolazine,informative missingness,lowest 3 concentrations,44.88460734138915,29.69031033485936,60.078904347918936,237,15,
+in vitro,Ranolazine,predictor shape,log10 multiples (used),39.50930896253305,26.39293714290796,52.625680782158135,244,15,
+in vitro,Ranolazine,predictor shape,linear in multiples,33.805933300297454,21.189185300965583,46.422681299629325,244,15,
+in vitro,Ranolazine,dataset effect,fixed (mean over datasets),39.26240851940531,,,244,15,
+in vitro,Verapamil,informative missingness,all 4 concentrations (used),-86.27378412572456,-103.33573621800657,-69.21183203344255,278,15,
+in vitro,Verapamil,informative missingness,lowest 3 concentrations,-73.98780016792792,-83.75826159323402,-64.2173387426218,231,15,
+in vitro,Verapamil,predictor shape,log10 multiples (used),-87.16719297521568,-99.28061944490683,-75.05376650552454,278,15,
+in vitro,Verapamil,predictor shape,linear in multiples,-43.38383614555078,-53.81235523624788,-32.95531705485368,278,15,
+in vitro,Verapamil,dataset effect,fixed (mean over datasets),-86.21730668373344,,,278,15,

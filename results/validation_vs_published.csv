@@ -1,0 +1,7 @@
+arm,endpoint,tmax_h,n_subjects,computed,computed_lo,computed_hi,published,published_lo,published_hi,diff,published_in_our_CI
+Dofetilide,ddQTcF,13.0,20,39.0,32.7,45.3,45.2,37.8,52.6,-6.2,True
+Dofetilide,ddJTpeakc,13.0,20,22.1,15.2,29.0,29.1,20.2,38.0,-7.0,False
+Dofetilide,ddTpeakTend,13.0,20,16.6,6.9,26.2,17.9,9.0,26.7,-1.3,True
+Mexiletine + Dofetilide,ddQTcF,13.0,19,19.2,12.5,25.8,17.3,11.6,23.0,1.9,True
+Mexiletine + Dofetilide,ddJTpeakc,13.0,19,2.2,-4.1,8.6,1.1,-5.5,7.7,1.1,True
+Mexiletine + Dofetilide,ddTpeakTend,13.0,19,14.9,10.5,19.3,14.6,10.0,19.2,0.3,True
