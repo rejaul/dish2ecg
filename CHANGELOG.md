@@ -127,6 +127,10 @@ Fraction unbound for bepridil, chlorpromazine, cisapride and terfenadine
   was written before the source full text was read. Corrected after verification. Explicitly NOT a reinstatement of withdrawn claim 1: the net sign of a
   free-concentration correction is still unestablished (Schocken 2018 runs the other way). A measurement of free
   compound in the well was added to the "what would settle it" list, plus a glossary entry for nominal concentration.
+- **Chlorpromazine binding citation read at abstract level**: the note that chlorpromazine's free fraction falls as alpha-1-acid
+  glycoprotein rises had rested on a truncated excerpt. The PubMed abstract (Verbeeck, Cardinal and Wallace, Eur J Clin Pharmacol
+  1984;27:91-97, PMID 6489431) confirms it: 64 healthy volunteers, negative correlation, p<0.005. `data/drug_reference.csv` now names
+  the paper. The full text is closed, so the value of fu itself (0.055) still comes from the product label, as before.
 - **Correction to the quinidine/hysteresis citation in `docs/PROJECT_REPORT.md`**: the report quoted a BIC improvement of
   "about 110" from hysteresis and a "gap of about 4" between Emax and linear, attributed to an unnamed paper. A later
   search showed the paper (Cellière, Krause, Bonnefois, Chauvin; PMID 40347307, PMC12065759). Its hysteresis table gives
