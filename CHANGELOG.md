@@ -85,6 +85,11 @@ Fraction unbound for bepridil, chlorpromazine, cisapride and terfenadine
   0.9894 quinidine, 0.9820 ranolazine, 0.9089 verapamil; dofetilide endo extended to 30x falls to 0.9387).
 - Repository URL https://github.com/rejaul/dish2ecg recorded in README, pyproject [project.urls] and CITATION.cff;
   the archive now carries its own git history with that remote configured.
+- Licence and authorship set: MIT, Copyright (c) 2026 Rejaul Karim. `CITATION.cff` gains the top-level `authors`
+  block that CFF 1.2.0 requires and that was missing, and `pyproject.toml` gains an `authors` entry.
+- **Citation fix in `CITATION.cff`:** the Scientific Reports 2019 J-to-Tpeak rate-correction paper
+  (doi:10.1038/s41598-019-51491-4) was attributed to Vicente; the first author is Hnatkova. Corrected.
+- `CITATION.cff` version bumped from 0.1.0 to 0.2.2 and the release date to 2026-11-06.
 - **Doc fix:** the bootstrap intervals in the held-out risk table (`docs/SUMMARY.md`, `docs/RISK_CLASSIFICATION_28.md`)
   were stale (for example qNet Spearman interval [0.55, 0.95]). `scripts/risk_comparison.py` was re-run from the wells
   table and reproduces `results/risk28_metrics_ci.csv` exactly; the docs now quote that file (qNet [0.52, 0.95]).

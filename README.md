@@ -347,5 +347,5 @@ See `CITATION.cff`. The underlying data must be cited independently — see
 
 ## Licence
 
-MIT, see `LICENSE`. This covers the code and the derived concentration lookup
+MIT, Copyright (c) 2026 Rejaul Karim; see `LICENSE`. This covers the code and the derived concentration lookup
 only; the upstream datasets carry their own terms.

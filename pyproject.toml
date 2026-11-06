@@ -9,6 +9,7 @@ description = "Corrected repolarization endpoints from hiPSC-CM and clinical ECG
 readme = "README.md"
 requires-python = ">=3.10"
 license = {file = "LICENSE"}
+authors = [{ name = "Rejaul Karim" }]
 keywords = ["cardiac safety", "QT", "hiPSC-CM", "CiPA", "proarrhythmia",
             "field potential duration", "concentration-QTc"]
 dependencies = [

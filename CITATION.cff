@@ -1,9 +1,13 @@
 cff-version: 1.2.0
 title: "dish2ecg: corrected repolarization endpoints from hiPSC-CM and clinical ECG data"
 message: "If you use this software, please cite it and the underlying datasets."
+authors:
+  - family-names: Karim
+    given-names: Rejaul
+    affiliation: "Campbellsville University, Campbellsville, Kentucky, USA"
 type: software
-version: 0.1.0
-date-released: "2026-11-02"
+version: 0.2.2
+date-released: "2026-11-06"
 license: MIT
 abstract: >-
   dish2ecg applies one correction cascade - rate correction, baseline
@@ -67,8 +71,8 @@ references:
   - type: article
     title: "Heart Rate Correction of the J-to-Tpeak Interval"
     authors:
-      - family-names: Vicente
-        given-names: Jose
+      - family-names: Hnatkova
+        given-names: Katerina
     journal: "Scientific Reports"
     year: 2019
     volume: "9"
