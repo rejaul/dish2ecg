@@ -76,6 +76,15 @@ Fraction unbound for bepridil, chlorpromazine, cisapride and terfenadine
   dofetilide 13.7 ms. The white-paper concentration-QTc model differs from our pre-formed double delta by at most
   3.4 ms with no decision changes; the missing centred-baseline covariate is named as the deviation to fix first.
 - Report section 18 (methodological audit) added, with each mixed model written out; Availability renumbered to 19.
+- `scripts/model_shape.py` -> `results/model_shape.csv`: linear vs log-linear vs Emax on the clinical arm, same
+  random intercept, ML so BIC is comparable, shape parameters profiled. Linear is best for dofetilide only;
+  quinidine prefers log-linear (dBIC 19.3) and verapamil Emax (dBIC 7.1). The effect at Cmax moves at most 6 ms and
+  NO ICH E14 decision changes - unlike the rate-correction choice, which flips one.
+- Report section 18.7: the in-silico arm fits no concentration-response model at all, and the curvature in
+  Figure 2c is largely a log-axis artefact (linear fit of dAPD90 on multiples gives R2 = 0.9993 dofetilide,
+  0.9894 quinidine, 0.9820 ranolazine, 0.9089 verapamil; dofetilide endo extended to 30x falls to 0.9387).
+- Repository URL https://github.com/rejaul/dish2ecg recorded in README, pyproject [project.urls] and CITATION.cff;
+  the archive now carries its own git history with that remote configured.
 - **Doc fix:** the bootstrap intervals in the held-out risk table (`docs/SUMMARY.md`, `docs/RISK_CLASSIFICATION_28.md`)
   were stale (for example qNet Spearman interval [0.55, 0.95]). `scripts/risk_comparison.py` was re-run from the wells
   table and reproduces `results/risk28_metrics_ci.csv` exactly; the docs now quote that file (qNet [0.52, 0.95]).

@@ -555,6 +555,31 @@ Four deviations, honestly stated.
 
 **The best method, if starting again**, is the prespecified model as written: ΔQTcF as the response, concentration plus centred baseline plus treatment plus time as fixed effects, random intercept and slope per subject, and the double delta derived from model contrasts rather than formed in advance. We now know what the shortcut cost on these four drugs — at most 3.4 ms, with no change to any conclusion — which is the honest way to report a simplification: not by claiming it does not matter, but by measuring how much it does.
 
+
+### 18.7 Is the concentration-response linear at all?
+
+**The in-silico arm fits nothing.** This is worth saying plainly, because Figure 2c looks like a steeply curving dose-response and invites the question. The simulation returns one action potential per parameter vector; there is no sampling, no residual and no regression. Where we quote an in-silico effect at 1.07x free Cmax, that multiple was simulated directly, so even interpolation is not involved.
+
+**And the curve in that figure is partly a log-axis artefact.** Plotted against concentration rather than log concentration, the simulated response is close to a straight line across the exposures that matter: a linear fit of dAPD90 on multiples of free Cmax gives R^2 = 0.9993 for dofetilide (largest residual 2.2 ms), 0.9894 for quinidine, 0.9820 for ranolazine and 0.9089 for verapamil. The convexity is real but it is a supratherapeutic phenomenon: extending dofetilide to 30x in the endocardial cell, which does keep repolarising, the linear fit falls to R^2 = 0.9387 with a largest residual of 70 ms. So the model is near-linear through the therapeutic range and accelerates well above it, which is also where it eventually fails to repolarise.
+
+**Where linearity *is* assumed, we tested it.** The clinical model is linear in concentration. That is the field default, and the same guidance that prescribes it requires the assumption to be checked and an Emax model fitted when it fails; study protocols routinely prespecify exactly that fallback. Fitting linear, log-linear and Emax forms with the same random intercept, by maximum likelihood so the fixed structures are comparable (`results/model_shape.csv`):
+
+| Drug | Best by BIC | linear ΔBIC | effect at Cmax, linear | effect at Cmax, best | E14 call changes? |
+|---|---|---|---|---|---|
+| Dofetilide | **linear** | 0.0 | +73.1 [68.6, 77.6] | +73.1 | no |
+| Quinidine | log-linear | 19.3 | +74.9 [69.4, 80.4] | +73.2 [68.0, 78.4] | no |
+| Ranolazine | log-linear (tie) | 0.4 | +11.2 [7.7, 14.8] | +11.6 [8.1, 15.2] | no |
+| Verapamil | Emax | 7.1 | +3.5 [0.0, 6.9] | +4.0 [0.6, 7.4] | no |
+
+So linear is the best form for only one of the four. Quinidine clearly prefers a curved form, which is independently corroborated: a recent re-analysis of quinidine concentration-QT data found the Emax and log-linear models were better fits than the linear model by BIC. Verapamil prefers Emax, which is also the drug whose two misses against the published analysis we had already attributed to fitting a linear model to a curved response.
+
+**But the consequence is small.** The effect at the geometric-mean Cmax moves by at most 6 ms across all three shapes, and **no ICH E14 decision changes for any of the four drugs**. Compare that with the rate-correction choice in section 18.3, where swapping Fridericia for Bazett flips verapamil's decision outright. Curvature is the more interesting modelling question and the less consequential one.
+
+**The alternatives, in the order we would try them.** Emax, f(C) = Emax·C/(C + EC50), is the standard first fallback and is what protocols prespecify. Sigmoid Emax adds a Hill coefficient and is the form the underlying receptor pharmacology actually implies. Log-linear, f(C) = p1·log(1 + C/p2), is a convenient middle ground. For the in-vitro arm we already use a nonlinear transform — the predictor is log10 of the multiple — which is a local approximation to the middle of a sigmoid over a 3,500-fold concentration span.
+
+**The larger gain is elsewhere.** The same re-analysis found that adding hysteresis to the linear model improved BIC by about 110, against the 4-point gap between Emax and linear. The shape of the concentration axis is a second-order question next to the lag between concentration and effect — and hysteresis is exactly what the 10-second public records cannot support (section 13.2). If one modelling improvement were available to this project, it would not be Emax. It would be longer recordings.
+
+
 ## 19. Availability
 
 The code is the `dish2ecg` package (133 tests, version 0.2.2). `results/README.md` maps every result file to the script that produced it and gives the regeneration order. The repository is published at https://github.com/rejaul/dish2ecg. It is not pushed from this environment, which has no GitHub credential configured; the archive carries its own git history so a single `git push` completes it. The well-level dish table is not redistributed; `scripts/build_wells.py` rebuilds it from the original workbook.
