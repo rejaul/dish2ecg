@@ -127,6 +127,14 @@ Fraction unbound for bepridil, chlorpromazine, cisapride and terfenadine
   was written before the source full text was read. Corrected after verification. Explicitly NOT a reinstatement of withdrawn claim 1: the net sign of a
   free-concentration correction is still unestablished (Schocken 2018 runs the other way). A measurement of free
   compound in the well was added to the "what would settle it" list, plus a glossary entry for nominal concentration.
+- **Correction to the quinidine/hysteresis citation in `docs/PROJECT_REPORT.md`**: the report quoted a BIC improvement of
+  "about 110" from hysteresis and a "gap of about 4" between Emax and linear, attributed to an unnamed paper. A later
+  search showed the paper (Cellière, Krause, Bonnefois, Chauvin; PMID 40347307, PMC12065759). Its hysteresis table gives
+  105.8 for ΔΔQTc and 109.6 for ΔQTc. The Emax-versus-linear gap is not visible in the excerpt we read, so that number is
+  removed, and the conclusion drawn from comparing the two is now stated as our own judgement. The reference now names the
+  authors and sits in alphabetical order. The paper is still known only from a search excerpt. `docs/RESEARCH_REPORT.md`
+  is frozen and still says the authors were not retrieved.
+
 
 ## 0.2.1 — 2026-11-04
 

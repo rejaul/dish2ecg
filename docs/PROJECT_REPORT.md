@@ -583,13 +583,13 @@ Where linearity is assumed, in the clinical model, we tested it. Linear is the f
 | Ranolazine | log-linear (tie) | 0.4 | +11.2 [7.7, 14.8] | +11.6 [8.1, 15.2] | no |
 | Verapamil | Emax | 7.1 | +3.5 [0.0, 6.9] | +4.0 [0.6, 7.4] | no |
 
-Linear is the best form for only one of the four drugs. Quinidine clearly prefers a curved form, and a recent paper on concentration-QT analysis beyond the linear model (PMC12065759, which we read only as a search excerpt) reports the same for quinidine, with Emax and log-linear fitting better than linear by BIC. Verapamil prefers Emax. It is also the drug whose two misses against the published analysis we had already put down to fitting a linear model to a curved response.
+Linear is the best form for only one of the four drugs. Quinidine clearly prefers a curved form, and a recent paper on concentration-QT analysis beyond the linear model (Cellière and colleagues, PMC12065759, which we read only as a search excerpt) reports the same for quinidine, with Emax and log-linear fitting better than linear by BIC. Verapamil prefers Emax. It is also the drug whose two misses against the published analysis we had already put down to fitting a linear model to a curved response.
 
 The consequence is small. The effect at the geometric-mean Cmax moves by at most 6 ms across the three shapes, and no ICH E14 decision changes for any of the four drugs. Compare that with the rate-correction choice in section 18.3, where swapping Fridericia for Bazett flips verapamil's decision outright. Curvature is the more interesting modelling question and the less consequential one.
 
 If curvature mattered, we would try Emax first, f(C) = Emax·C/(C + EC50), which is what protocols prespecify. Sigmoid Emax adds a Hill coefficient and is what the receptor pharmacology implies. Log-linear, f(C) = p1·log(1 + C/p2), sits in between. In vitro we already use a nonlinear transform, since the predictor is log10 of the multiple, which is a local approximation to the middle of a sigmoid over a 3,500-fold span.
 
-The same paper reports that adding hysteresis to the linear model improved BIC by about 110, against a gap of about 4 between Emax and linear. So the shape of the concentration axis is a second-order question next to the lag between concentration and effect, and hysteresis is exactly what the 10-second public records cannot support (section 13.2). If one modelling improvement were available to this project, it would be longer recordings and not Emax.
+The same paper reports that adding hysteresis to the linear model lowered BIC by 105.8 for ΔΔQTc and by 109.6 for ΔQTc. We saw only a search excerpt of that table. We cannot say which drugs it covers, and the excerpt does not show the Emax-versus-linear gap, so we do not compare the two sizes. In our own fits the shape of the curve moves the effect at Cmax by at most 6 ms. Hysteresis is exactly what the 10-second public records cannot support (section 13.2). Our judgement, and not the paper's finding, is that if one modelling improvement were available to this project, it would be longer recordings and not Emax.
 
 ## 19. Availability
 
@@ -615,10 +615,10 @@ The code is the `dish2ecg` package (142 tests, version 0.2.2) under the MIT lice
 
 - Alvarez Baron C, et al. (2025) Reassessing the conduct of patch clamp cardiac ion channel assays to improve nonclinical data translation to clinical ECG changes and proarrythmia risk. *Clin Transl Sci* 18:e70451. doi:10.1111/cts.70451
 - Axion BioSystems. AIMS #CM01, iPSC model standard. https://www.axionbiosystems.com/axion-ipsc-model-standards-aims/aims-cm01
-- Beyond the linear model in concentration-QT analysis. PMC12065759 (authors and journal not verified; read as a search excerpt only)
 - Blinova K, et al. (2016) Comprehensive translational assessment of human-induced pluripotent stem cell derived cardiomyocytes for evaluating drug-induced arrhythmias. *Toxicol Sci* 155:234–247. doi:10.1093/toxsci/kfw200
 - Blinova K, et al. (2018) International multisite study of human-induced pluripotent stem cell-derived cardiomyocytes for drug proarrhythmic potential assessment. *Cell Reports* 24:3582–3592. doi:10.1016/j.celrep.2018.08.079
 - Blinova K, et al. (2019) Clinical trial in a dish: personalized stem cell-derived cardiomyocyte assay compared with clinical trial results for two QT-prolonging drugs. *Clin Transl Sci* 12:687–697. doi:10.1111/cts.12674
+- Cellière G, Krause A, Bonnefois G, Chauvin J. Beyond the linear model in concentration-QT analysis. PMID 40347307; PMC12065759 (journal and year not confirmed; read as a search excerpt only)
 - Colatsky T, et al. (2016) The Comprehensive in Vitro Proarrhythmia Assay (CiPA) initiative: update on progress. *J Pharmacol Toxicol Methods* 81:15–20. doi:10.1016/j.vascn.2016.06.002
 - Crumb WJ, et al. (2016) An evaluation of 30 clinical drugs against the comprehensive in vitro proarrhythmia assay (CiPA) proposed ion channel panel. *J Pharmacol Toxicol Methods* 81:251–262. doi:10.1016/j.vascn.2016.03.009
 - Dutta S, et al. (2017) Optimization of an in silico cardiac cell model for proarrhythmia risk assessment. *Front Physiol* 8:616. doi:10.3389/fphys.2017.00616
